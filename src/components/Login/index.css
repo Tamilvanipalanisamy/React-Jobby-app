@@ -1,0 +1,58 @@
+.login-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-card-container {
+  background-color: #2c364c;
+  padding: 20px;
+  min-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 8px 0px #bfbfbf;
+}
+@media screen and (min-width: 768px) {
+  .login-card-container {
+    min-width: 400px;
+  }
+}
+.website-logo {
+  width: 80px;
+  height: 35px;
+  margin-bottom: 8px;
+}
+.label-heading {
+  font-size: 13px;
+  font-family: 'roboto';
+  color: white;
+}
+.input-style {
+  font-size: 15px;
+  color: #f1f5f9;
+  font-family: 'roboto';
+  height: 30px;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid #7e858e;
+  padding: 5px;
+}
+.login-btn {
+  background-color: blue;
+  font-size: 17px;
+  font-family: 'roboto';
+  font-weight: bold;
+  padding: 8px;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100px;
+}
+.error-msg {
+  color: red;
+  font-size: 13px;
+}
